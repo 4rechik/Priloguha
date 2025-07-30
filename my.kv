@@ -1,8 +1,16 @@
 #:kivy 1.0.9
 
 <Container>:
-    Button:
-        text: 'Hello'
-
-    Button:
-        text: 'World'
+    canvas.before:
+        Color:
+            rgba: [1, 1, 1, 1]  
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        id:1
+        text: 'Сводка'
+        padding_x: 0
+        padding_y: 1
+        
+        

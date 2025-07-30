@@ -1,9 +1,10 @@
 from kivy.app import App
 from kivy.uix.button import Button
-from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.label import *
+from kivy.graphics.context_instructions import *
 
-
-class Container(BoxLayout):
+class Container(FloatLayout):
     pass
 
 class MyApp(App):

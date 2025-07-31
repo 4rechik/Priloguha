@@ -3,6 +3,7 @@ from kivy.uix.button import Button
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.label import *
 from kivy.graphics.context_instructions import *
+from kivy.graphics import *
 
 class Container(FloatLayout):
     pass
